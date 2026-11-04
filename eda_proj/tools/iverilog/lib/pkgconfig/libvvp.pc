@@ -1,0 +1,10 @@
+prefix=/c/Source/iverilog-install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libvvp
+Version: 14.0
+Description: Icarus Verilog VVP runtime library
+Libs: -L${libdir} -lvvp
+Cflags: -I${includedir}/iverilog

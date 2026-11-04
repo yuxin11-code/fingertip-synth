@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CF-Design Name="电子琴OS_双板五音色" ScreenWidth="480" ScreenHeight="272" DeviceType="1" StratScreen="0" ScreenRotate="0" LockSetting="1" Baud="7" TouchScreen="1" CRC="0" SliderSwitchPic="0" SlidingRange="0" SliderStartPicID="65535" SliderEndPicID="65535" Bee="0" AutoBackLight="0" StanByTime="10" ActivateBrightness="52" StandbyBrightness="20" BackLightInform="0" m_nBackLight="52" TouchInform="0" SwitchScreenInform="1" ButtonEventInform="3" CmdProtocolType="0" ModbusSlaveAddr="1" UserDefinedShortKeyEn="0" UserDefinedBigKeyEn="0" netMode="0" SSIDName="SHT" PWD="" NetService="0" ServiceIP="192.168.1.62" Port="5050" NetCmd="1" PollingDelay="10" ResponseTimeOut="100" ConiueReading="64" ReadMethod="1" OptimizeReading="0" SaveSetting="0" 32BitEndianType="0" ModbusSlaveNumber="0" UserDefinedShortKeyPhoID="0" UserDefinedBigKeyPhoID="0" FontTypeConvert="0" CmdFrameHeader="AA">
+  <Pages>
+    <Page RelativePath="00_首页.tft" PageNumber="0"/>
+<Page RelativePath="01_屏上演奏.tft" PageNumber="1"/>
+<Page RelativePath="02_示波器.tft" PageNumber="2"/>
+<Page RelativePath="03_频谱.tft" PageNumber="3"/>
+<Page RelativePath="04_李萨如.tft" PageNumber="4"/>
+<Page RelativePath="05_音色_ADSR.tft" PageNumber="5"/>
+<Page RelativePath="06_效果器.tft" PageNumber="6"/>
+<Page RelativePath="07_音游.tft" PageNumber="7"/>
+<Page RelativePath="08_录音放音.tft" PageNumber="8"/>
+<Page RelativePath="09_旋钮监视.tft" PageNumber="9"/>
+</Pages>
+  <Images />
+  <Waves />
+</CF-Design>

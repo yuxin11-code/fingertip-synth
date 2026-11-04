@@ -1,0 +1,61 @@
+{
+  "packaged_at": "2026-11-04T13:02:40+08:00",
+  "project": "audio.gprj",
+  "top": "top",
+  "output_base_name": "spectrum_65_1k",
+  "build_completed_at": "2026-11-04T04:43:21+08:00",
+  "bitstream": "../release/spectrum_65_1k.fs",
+  "bitstream_sha256": "caaf330878e6c85b9f8bf8d709197c2ffcb287450cf049cf8e2d9adc833ca461",
+  "pnr_report": "../release/spectrum_65_1k.rpt.txt",
+  "timing_paths": "../release/spectrum_65_1k.timing_paths",
+  "project_file_entries": 77,
+  "copied_src_files": 97,
+  "build_provenance": "Copied existing successful Gowin V1.9.12.04 build; no synthesis, P&R or hardware programming performed during packaging.",
+  "setup_ns": 3.675,
+  "hold_ns": 0.184,
+  "setup_violated_endpoints": 0,
+  "hold_violated_endpoints": 0,
+  "endpoint_count_source": "Original impl/pnr/spectrum_65_1k_tr_content.html; the requested .rpt.txt and .timing_paths do not contain endpoint totals.",
+  "resources": {
+    "Logic": {
+      "used": 28785,
+      "total": 138240,
+      "percent": 21
+    },
+    "Register": {
+      "used": 21714,
+      "total": 139095,
+      "percent": 16
+    },
+    "CLS": {
+      "used": 24916,
+      "total": 69120,
+      "percent": 37
+    },
+    "I/O Port": {
+      "used": 34,
+      "total": 297,
+      "percent": 12
+    },
+    "BSRAM": {
+      "used": 180,
+      "total": 340,
+      "percent": 53
+    },
+    "DSP": {
+      "used": 97,
+      "total": 298,
+      "percent": 33
+    }
+  },
+  "spectrum_bands": 32,
+  "spectrum_hz": [
+    65,
+    1000
+  ],
+  "validation_records": "无对应验证记录",
+  "screen_archive": "../release/SD_card.zip",
+  "warnings": [
+    "Original TA1123 clock consistency warning remains; original RTL and constraints are unchanged."
+  ]
+}

@@ -1,0 +1,86 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AST-138B" pn="GW5AST-LV138PG484AC2/I1">gw5ast138b-010</Device>
+    <FileList>
+        <File path="src/migration/mig_additive_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_engine_diagnostics.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/serial_divider.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/score_guide.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_game_control.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/viz_capture.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/spectrum.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/spectrum_bins.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_viz_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_visualization.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_readback_scale.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_scale_exact.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_hmi_link.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/hmi_percent.v" type="file.verilog" enable="1"/>
+        <File path="src/audio.sdc" type="file.sdc" enable="1"/>
+        <File path="src/adsr_parameter_control.v.v" type="file.verilog" enable="1"/>
+        <File path="src/audio_drive.v" type="file.verilog" enable="1"/>
+        <File path="src/gesture_strum_control.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_osc/gowin_osc.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_dds_nco.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_envelope_volume.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_four_voice_bank.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_harmonic_bank.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_input_control.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_mixer_limiter.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_multi_oscillator.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_pitch_control.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_polyphony_bank.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_voice.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_voice_allocator4.v" type="file.verilog" enable="1"/>
+        <File path="src/instrument_wavetable_bank.v.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_audio_bridge.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_cdc_snapshot.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_dual_instrument.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_action_recorder.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_ws2812_color.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_five_knobs.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_rp108_reader.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_knob_normalize.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_six_knobs.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_expression_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_input_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_octave_control.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_mix_limiter.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_note_step.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_screen_status.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_stereo_mixer.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/score_request_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_voice_engine.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/mig_wave_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/paj7620_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/paj7620_i2c_master.v" type="file.verilog" enable="1"/>
+        <File path="src/paj7620_init_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/pitch_key_control.v" type="file.verilog" enable="1"/>
+        <File path="src/rom_wave_piano.v" type="file.verilog" enable="1"/>
+        <File path="src/rom_wave_sine.v" type="file.verilog" enable="1"/>
+        <File path="src/rom_wave_triangle.v.v" type="file.verilog" enable="1"/>
+        <File path="src/rotary_encoder_decoder.v.v" type="file.verilog" enable="1"/>
+        <File path="src/score_frame_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/score_uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/score_loader.v" type="file.verilog" enable="1"/>
+        <File path="src/score_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/timbre_select_control.v.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/ttp229_serial16.v" type="file.verilog" enable="1"/>
+        <File path="src/volume_control.v" type="file.verilog" enable="1"/>
+        <File path="src/volume_scale.v" type="file.verilog" enable="1"/>
+        <File path="src/ws2812_status.v" type="file.verilog" enable="1"/>
+        <File path="src/audio.cst" type="file.cst" enable="1"/>
+        <File path="src/migration/fx_chain.v" type="file.verilog" enable="1"/>
+        <File path="src/migration/reverb.v" type="file.verilog" enable="1"/>
+    </FileList>
+</Project>

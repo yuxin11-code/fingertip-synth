@@ -1,0 +1,11 @@
+eda_proj/impl/
+*.gprj.user
+*.db
+*.pr
+*.p
+*.tr
+*.binx
+*.vcd
+*.fst
+__pycache__/
+release/*.fs
